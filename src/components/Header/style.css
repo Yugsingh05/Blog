@@ -13,10 +13,11 @@
     width: 100%;
 } */
 
-@media  (min-width : 400px) and (max-width : 850px) {
+@media  (min-width : 400px) and (max-width : 950px) {
     .head{
         height: 6vh;
         font-size: 0.5rem;
+        width: 100vw;
     }
     .head .lo{
         width: 30%;
@@ -24,5 +25,17 @@
         border: 2px solid black;
 
     }
+    
+}
+
+@media (max-width : 399px) {
+    .head{
+        
+        width: 100vw;
+        font-size: 0.35rem;
+        height: 5vh;
+        
+    }
+    
     
 }

@@ -37,11 +37,11 @@ function Post() {
   return post ? (
     <div className="py-8 bg-black w-full ">
       <Container>
-        <div className="w-1/2 p-3 mb-4 photo relative flex  justify-center border rounded-xl  po  bg-lime-300   ">
+        <div className="w-1/2 p-3 mb-4  relative flex  photocont justify-center border rounded-xl  po  bg-lime-300   ">
           <img
             src={appwriteService.getFilePreview(post.featuredImage)}
             alt={post.title}
-            className="rounded-xl"
+            className="rounded-xl photo"
           />
 
           {isAuthor && (
@@ -58,7 +58,7 @@ function Post() {
           )}
         </div>
         <div className="w-full mb-6">
-          <h1 className=" font-extrabold text-3xl ml-5  text-yellow-300">
+          <h1 className=" font-extrabold text-3xl max-md:text-2xl ml-5  text-yellow-300">
             {post.title}
           </h1>
         </div>

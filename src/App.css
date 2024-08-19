@@ -8,6 +8,7 @@
     border-radius:5px ;
 }
 
+
 .postcard:hover{
     box-shadow: 0 0 3rem lime;
 }
@@ -17,5 +18,13 @@
         width: 10vh;
         margin-left: -0.5rem;       
     }
+    .postcard{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media (min-width = 125px) and (max-width = 400px) {
+    
     
 }

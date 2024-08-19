@@ -60,13 +60,13 @@ function Header() {
 
               </Link>
           </div>
-          <ul className='flex ml-auto gap-3'>
+          <ul className='flex ml-auto gap-2'>
             {navItems.map((item) => 
             item.active ? (
               <li key={item.name}>
                 <button
                 onClick={() => handleClick(item.slug)}
-                className={`inline-bock font-semibold  px-6 py-2 
+                className={`inline-bock font-semibold  px-3 py-2 
                 duration-200 hover:bg-blue-100
                 hover:text-black ${isHighlighted === item.slug ? "bg-blue-100 text-black": "text-white "} rounded-full`}
                 >{item.name}</button>

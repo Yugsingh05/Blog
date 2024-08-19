@@ -42,16 +42,7 @@
     
     padding: 1rem;
 }
-.like::hover{
-    background-color: #fff;
-    
-}
-.like{
-    display: inline-block;
-    color: green;
-    
-   
-}
+
 .allbg{
   
     background-color: rgb(75,0,130);
