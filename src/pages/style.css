@@ -28,17 +28,17 @@
 .wid{
     width: 65%;
     border-radius: 25px;
-    background-color: rgb(141, 125, 191);
-    box-shadow: 0 0 1.5rem black;
+    background-color:whitesmoke;
+    /* box-shadow: 0 0 1.5rem black; */
 }
 .con{
     height: 100%;
     width: 80%;
-   box-shadow: 0 0rem 2.7rem rgb(245, 245, 245);
+   /* box-shadow: 0 0rem 2.7rem rgb(245, 245, 245); */
    border-radius: 2.05rem;
    border-style: none;
     margin-left: 10vw;
-    background-color: rgba(132, 78, 240, 0.734);
+    background-color:black;
     
     padding: 1rem;
 }

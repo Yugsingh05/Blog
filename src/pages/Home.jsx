@@ -51,7 +51,7 @@ function Home() {
   }
 
   return (
-    <div className="w-full py-5 bg-gray-800 post  ">
+    <div className="w-full py-5 bg-black post  ">
       <Container>
         <div className="con w-full">
           <div className="flex flex-wrap postDir w-full ">
